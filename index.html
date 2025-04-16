@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Color Generator : with RGB value</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <h3>Generate a random color</h3>
+    <button id="generate-btn">Generate Color</button>
+    <button id="toggle-mode">🌙 Dark Mode</button><br><br>
+
+    <div class="color-box" id="color-box">
+      This is your new color.
+    </div>
+
+    <button id="save-fav">❤️ Save to Favorites</button>
+
+    <div id="history">
+      <h4>Color History:</h4>
+      <div id="history-list"></div>
+    </div>
+
+    <div id="favorites">
+      <h4>Favorite Colors:</h4>
+      <div id="fav-list"></div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
